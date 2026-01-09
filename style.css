@@ -11,13 +11,14 @@
 }
 
 .btn {
-    background-color: #4a8d64;
+    background-color: #30B868;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.3s;
+    
 }
 
 .btn:hover {
@@ -41,12 +42,15 @@ header {
 
 .logo-navbar {
     align-items: center;
+    width: 139px;
+    height: 60px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 30px;
+    font-weight: 500;
 }
 
 .nav-links li a {
@@ -56,4 +60,127 @@ header {
 
 .nav-links li a:hover {
     color: #4a8d64;
+}
+
+.hero-section {
+    position: relative;
+    height: 674px;
+    background: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 80%;
+}
+
+.badge {
+    display: inline-flex;
+    width: fit-content;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #30B868;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 12px;
+  position: relative;
+}
+.dot::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: rgba(46, 125, 50, 0.3);
+  border-radius: 50%;
+}
+.text {
+  color: #30B868;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+
+.highlight {
+    color: #4db373;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 35px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.btn-primary {
+    background-color: #4a8d64;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    display: flex;
+    
+}
+.ArrowRight--image {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding-left: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-primary:hover {
+    background-color: #3a704f;
+}
+.btn-secondary {
+    border: 1px solid white;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.play-icon {
+    font-size: 12px;
 }
