@@ -93,6 +93,7 @@ body {
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 .dot {
   height: 12px;
@@ -125,6 +126,7 @@ body {
     font-weight: 700;
     text-align: center;
     align-items: center;
+    line-height: 1;
 }
 
 .highlight {
@@ -136,6 +138,7 @@ body {
     line-height: 1.6;
     color: #d1d5db;
     margin-bottom: 35px;
+    margin-top: 20px;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
@@ -203,7 +206,6 @@ body {
 .header h1 {
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 15px;
     color: #001931;
 }
 
